@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_QLTGDDModelStoreContainer" CdmEntityContainer="DB_QLTGDDEntities">
+    <EntitySetMapping Name="tb_BANGCONG">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_BANGCONG">
+        <MappingFragment StoreEntitySet="tb_BANGCONG">
+          <ScalarProperty Name="MABC" ColumnName="MABC" />
+          <ScalarProperty Name="THANG" ColumnName="THANG" />
+          <ScalarProperty Name="NAM" ColumnName="NAM" />
+          <ScalarProperty Name="KHOA" ColumnName="KHOA" />
+          <ScalarProperty Name="NGAYTINHCONG" ColumnName="NGAYTINHCONG" />
+          <ScalarProperty Name="NGAYCONGTRONGTHANG" ColumnName="NGAYCONGTRONGTHANG" />
+          <ScalarProperty Name="MACN" ColumnName="MACN" />
+          <ScalarProperty Name="TRANGTHI" ColumnName="TRANGTHI" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_BANGCONGCHITIET">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_BANGCONGCHITIET">
+        <MappingFragment StoreEntitySet="tb_BANGCONGCHITIET">
+          <ScalarProperty Name="MABCCT" ColumnName="MABCCT" />
+          <ScalarProperty Name="MANGAYCONG" ColumnName="MANGAYCONG" />
+          <ScalarProperty Name="MABC" ColumnName="MABC" />
+          <ScalarProperty Name="SONGAYCONG" ColumnName="SONGAYCONG" />
+          <ScalarProperty Name="TONGNGAYCONG" ColumnName="TONGNGAYCONG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_BCCT_NGAYCONG">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_BCCT_NGAYCONG">
+        <MappingFragment StoreEntitySet="tb_BCCT_NGAYCONG">
+          <ScalarProperty Name="MABCCT" ColumnName="MABCCT" />
+          <ScalarProperty Name="MANCNV" ColumnName="MANCNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_CHINHANH">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_CHINHANH">
+        <MappingFragment StoreEntitySet="tb_CHINHANH">
+          <ScalarProperty Name="MACN" ColumnName="MACN" />
+          <ScalarProperty Name="TENCN" ColumnName="TENCN" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_CHUCVU">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_CHUCVU">
+        <MappingFragment StoreEntitySet="tb_CHUCVU">
+          <ScalarProperty Name="MACV" ColumnName="MACV" />
+          <ScalarProperty Name="TENCV" ColumnName="TENCV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_DANHSO">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_DANHSO">
+        <MappingFragment StoreEntitySet="tb_DANHSO">
+          <ScalarProperty Name="MADS" ColumnName="MADS" />
+          <ScalarProperty Name="THANG" ColumnName="THANG" />
+          <ScalarProperty Name="NAM" ColumnName="NAM" />
+          <ScalarProperty Name="TONGDS" ColumnName="TONGDS" />
+          <ScalarProperty Name="MACN" ColumnName="MACN" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_DANHSOCHITIET">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_DANHSOCHITIET">
+        <MappingFragment StoreEntitySet="tb_DANHSOCHITIET">
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="MADS" ColumnName="MADS" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_HOPDONG">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_HOPDONG">
+        <MappingFragment StoreEntitySet="tb_HOPDONG">
+          <ScalarProperty Name="SOHD" ColumnName="SOHD" />
+          <ScalarProperty Name="NGAYBATDAU" ColumnName="NGAYBATDAU" />
+          <ScalarProperty Name="NGAYKETTHUC" ColumnName="NGAYKETTHUC" />
+          <ScalarProperty Name="NGAYKY" ColumnName="NGAYKY" />
+          <ScalarProperty Name="NOIDUNG" ColumnName="NOIDUNG" />
+          <ScalarProperty Name="LANKY" ColumnName="LANKY" />
+          <ScalarProperty Name="THOIGIAN" ColumnName="THOIGIAN" />
+          <ScalarProperty Name="HESOLUONG" ColumnName="HESOLUONG" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="MACN" ColumnName="MACN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_LOAICONG">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_LOAICONG">
+        <MappingFragment StoreEntitySet="tb_LOAICONG">
+          <ScalarProperty Name="MALC" ColumnName="MALC" />
+          <ScalarProperty Name="TENLC" ColumnName="TENLC" />
+          <ScalarProperty Name="HESO" ColumnName="HESO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_NGAYCONGCHITET">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_NGAYCONGCHITET">
+        <MappingFragment StoreEntitySet="tb_NGAYCONGCHITET">
+          <ScalarProperty Name="MANCNV" ColumnName="MANCNV" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="THU" ColumnName="THU" />
+          <ScalarProperty Name="GIOIVAO" ColumnName="GIOIVAO" />
+          <ScalarProperty Name="GIOIRA" ColumnName="GIOIRA" />
+          <ScalarProperty Name="KYHIEU" ColumnName="KYHIEU" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+          <ScalarProperty Name="MALC" ColumnName="MALC" />
+          <ScalarProperty Name="MANGAYCONGNHANVIEN" ColumnName="MANGAYCONGNHANVIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_NHANVIEN">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_NHANVIEN">
+        <MappingFragment StoreEntitySet="tb_NHANVIEN">
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="HOTEN" ColumnName="HOTEN" />
+          <ScalarProperty Name="GIOITINH" ColumnName="GIOITINH" />
+          <ScalarProperty Name="NGAYSINH" ColumnName="NGAYSINH" />
+          <ScalarProperty Name="DIENTHOAI" ColumnName="DIENTHOAI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="HINHANH" ColumnName="HINHANH" />
+          <ScalarProperty Name="CCCD" ColumnName="CCCD" />
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="MAPB" ColumnName="MAPB" />
+          <ScalarProperty Name="MACV" ColumnName="MACV" />
+          <ScalarProperty Name="MACN" ColumnName="MACN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_PHONGBAN">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_PHONGBAN">
+        <MappingFragment StoreEntitySet="tb_PHONGBAN">
+          <ScalarProperty Name="DIACHI" ColumnName="DIACHI" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="MAPB" ColumnName="MAPB" />
+          <ScalarProperty Name="TENPB" ColumnName="TENPB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_PHUCAP">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_PHUCAP">
+        <MappingFragment StoreEntitySet="tb_PHUCAP">
+          <ScalarProperty Name="MAPC" ColumnName="MAPC" />
+          <ScalarProperty Name="TENPHUCAP" ColumnName="TENPHUCAP" />
+          <ScalarProperty Name="SOTIEN" ColumnName="SOTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_PHUCAP_NHANVIEN">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_PHUCAP_NHANVIEN">
+        <MappingFragment StoreEntitySet="tb_PHUCAP_NHANVIEN">
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="MAPC" ColumnName="MAPC" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="NOIDUNG" ColumnName="NOIDUNG" />
+          <ScalarProperty Name="SOTIEN" ColumnName="SOTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_SANPHAM">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_SANPHAM">
+        <MappingFragment StoreEntitySet="tb_SANPHAM">
+          <ScalarProperty Name="MASP" ColumnName="MASP" />
+          <ScalarProperty Name="TENSP" ColumnName="TENSP" />
+          <ScalarProperty Name="GIA" ColumnName="GIA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_UNGLUONG">
+      <EntityTypeMapping TypeName="DB_QLTGDDModel.tb_UNGLUONG">
+        <MappingFragment StoreEntitySet="tb_UNGLUONG">
+          <ScalarProperty Name="MAUL" ColumnName="MAUL" />
+          <ScalarProperty Name="NGAY" ColumnName="NGAY" />
+          <ScalarProperty Name="SOTIEN" ColumnName="SOTIEN" />
+          <ScalarProperty Name="MANV" ColumnName="MANV" />
+          <ScalarProperty Name="GHICHU" ColumnName="GHICHU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

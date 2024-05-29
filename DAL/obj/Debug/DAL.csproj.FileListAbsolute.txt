@@ -1,0 +1,14 @@
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\DAL.dll.config
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\DAL.dll
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\DAL.pdb
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\DTO.dll
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\EntityFramework.dll
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\DTO.pdb
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\EntityFramework.xml
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\obj\Debug\DAL.dll
+D:\CSharp\DUANCANHAN\QLTGDD\TGDDSoftWare\DAL\obj\Debug\DAL.pdb

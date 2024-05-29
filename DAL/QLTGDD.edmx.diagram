@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bf6d890665bd4acdbfc2b480e9d603d5" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BangChamCong" Width="1.5" PointX="5.25" PointY="21.75" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BANGCONG" Width="1.5" PointX="3" PointY="31" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BANGCONGCHITIET" Width="1.5" PointX="8.25" PointY="20.625" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BANGLUONG" Width="1.5" PointX="6" PointY="4.375" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BANGLUONG_NHANVIEN" Width="1.5" PointX="8.25" PointY="12.5" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BANGLUONGCHINHANH" Width="1.5" PointX="3" PointY="17.875" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_BCCT_NGAYCONG" Width="1.5" PointX="10.5" PointY="21.625" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_CHINHANH" Width="1.5" PointX="0.75" PointY="17.5" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_CHUCVU" Width="1.5" PointX="0.75" PointY="14.5" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_DANHSO" Width="1.5" PointX="6" PointY="17.25" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_DANHSOCHITIET" Width="1.5" PointX="8.25" PointY="16.75" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_HOPDONG" Width="1.5" PointX="5.25" PointY="30.5" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_LOAICONG" Width="1.5" PointX="3.75" PointY="35.625" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_NGAYCONGCHITET" Width="1.5" PointX="6" PointY="35.125" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_NHANVIEN" Width="1.5" PointX="3" PointY="11.25" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_PHONGBAN" Width="1.5" PointX="0.75" PointY="11.625" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_PHUCAP" Width="1.5" PointX="6" PointY="8" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_PHUCAP_NHANVIEN" Width="1.5" PointX="8.25" PointY="8.625" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_SANPHAM" Width="1.5" PointX="6" PointY="1" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_THANHTOAN" Width="1.5" PointX="6" PointY="14.5" />
+        <EntityTypeShape EntityType="DB_QLTGDDModel.tb_UNGLUONG" Width="1.5" PointX="5.25" PointY="10.75" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BangChamCong_tb_BANGCONG" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BangChamCong_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGCONG_tb_CHINHANH" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGCONGCHITIET_tb_BANGCONG" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGCONGCHITIET_tb_NGAYCONGCHITET" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGCONGCHITIET_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BCCT_NGAYCONG_tb_BANGCONGCHITIET1" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGLUONG_NHANVIEN_tb_BANGLUONG" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGLUONGCHINHANH_tb_BANGLUONG" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGLUONG_NHANVIEN_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGLUONG_NHANVIEN_tb_THANHTOAN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BANGLUONGCHINHANH_tb_CHINHANH" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_BCCT_NGAYCONG_tb_NGAYCONGCHITET" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_DANHSO_tb_CHINHANH" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_NHANVIEN_tb_CHINHANH" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_NHANVIEN_tb_CHUCVU" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_DANHSO_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_DANHSOCHITIET_tb_DANHSO" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_DANHSOCHITIET_tb_SANPHAM" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_HOPDONG_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_NGAYCONGCHITET_tb_LOAICONG" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_NHANVIEN_tb_PHONGBAN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_PHUCAP_NHANVIEN_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_UNGLUONG_tb_NHANVIEN" />
+        <AssociationConnector Association="DB_QLTGDDModel.FK_tb_PHUCAP_NHANVIEN_tb_PHUCAP" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
